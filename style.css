@@ -45,7 +45,7 @@ nav ul li a {
 
 /* header section */
 header{
-    height: 90vh;
+    height: 100vh;
     background-image: linear-gradient(to right, rgba(13, 14, 21, 1) 0%, rgba(13, 14, 21, 0.5) 30%, rgba(13, 14, 21, 0) 60%), url("./assets/banner.jpg");
     background-size: cover;
     background-position: center;
