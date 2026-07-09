@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* register-button - common button */
+.register-button{
+    padding: 12px 24px;
+    background-color: #1D4ED8;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+/* navbar section */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background-color: #fff;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #575757;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* header section */
+header{
+    height: 90vh;
+    background-image: linear-gradient(to right, rgba(13, 14, 21, 1) 0%, rgba(13, 14, 21, 0.5) 30%, rgba(13, 14, 21, 0) 60%), url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 12px;
+}
+
+header h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 4rem;
+    padding-top: 120px;
+}
+
+header p{
+    color: #fff;
+    font-weight: 200;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.hero-section-btn{
+    padding: 18px 35px;
+    font-size: 1.1rem;
+    margin-top: 210px;
+}
+
+/* speaker section */
+.speaker-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 100px auto;
+}
+
+.speaker-section h1{
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #000102;
+}
+
+.speaker-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+    width: 80%;
+    /* border: 2px solid black; */
+}
+
+.speaker-card{
+    border: 2px solid #E5E7EB;
+    border-radius: 14px;
+}
+
+.speaker-card img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.speaker-card .intro{
+    display:flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+}
+
+.intro h4{
+    color: #2563EB;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.intro h3{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #0D1B2A;
+}
+
+.intro p{
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #575757;
+    margin-bottom: 10px;
+}
+
+/* secure spot section */
+.secure-spot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secure-spot h1{
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #0D1B2A;
+}
+
+.secure-spot h4{
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: #575757;
+}
+
+.spot-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    width: 70%;
+    margin: 50px auto;
+}
+
+.spot-card{
+    border: 2px solid #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    border-radius: 12px;
+}
+
+.spot-card h1{
+    padding-top: 12px;
+}
+
+.spot-card p{
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #575757;
+}
+
+.spot-card hr{
+    margin: 20px 0;
+    background-color: #E5E7EB;
+    border: none;
+    height: 1px;
+}
+
+.spot-card ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 18px;
+    color: #333333;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.spot-card li::marker{
+    color: #2563EB;
+}
+
+.spot-card button{
+    margin-top: 20px;
+    padding: 12px 35px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.pro-card{
+    background-color: #0D1B2A;
+    color: #fff;
+    border: none;
+}
+.pro-card h4{
+    color: #93C5FD;
+}
+.pro-card h1{
+    color: #fff;
+}
+.pro-card p, .pro-card ul{
+    color: #a8a8a8;
+}
+.pro-card hr{
+    background-color: #3c3c3c;
+}
+
+.team-card{
+    background-color: #F8F9FB;
+}
+
+.standard-card button{
+    background-color: #fff;
+    color: #2563EB;
+    border: 2px solid #2563EB;
+}
+
+.pro-card button{
+    background-color: #2563EB;
+    color: #fff;
+}
+
+.team-card button{
+    background-color: #F8F9FB;
+    color: #0D1B2A;
+    border: 2px solid #0D1B2A;
+}
+
+
