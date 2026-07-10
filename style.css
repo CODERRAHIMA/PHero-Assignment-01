@@ -287,6 +287,134 @@ header p {
   border: 2px solid #0d1b2a;
 }
 
+/* event venue section */
+.venue {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 50px;
+  width: 80%;
+  margin: 150px auto;
+}
+.venue-left {
+  border-radius: 14px;
+  border: 2px solid #e5e7eb;
+  background-color: #f8f9fb;
+}
+
+.venue-left img {
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+  display: flex;
+  gap: 0px;
+}
+
+.venue-left .event {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 0 0 12px 12px;
+  padding: 30px 0 30px 0;
+}
+
+.event .event-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.event .icon {
+  font-size: 1.5rem;
+  color: #2563eb;
+  background-color: #f0f4fb;
+  padding: 12px;
+  border-radius: 15px;
+}
+
+.event p {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #575757;
+}
+
+.venue-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.venue-right h1 {
+  font-weight: bold;
+  font-size: 2.8rem;
+  color: #333333;
+}
+
+.venue-right p {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #575757;
+}
+
+.venue-right .direction {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.venue-right .direction .direction-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.direction-card .icon {
+  font-size: 1.5rem;
+  color: #2563eb;
+  background-color: #f0f4fb;
+  padding: 15px;
+  border-radius: 15px;
+}
+.direction-card .detail {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.direction-card h4 {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #000;
+}
+
+.direction-card p {
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #575757;
+}
+
+.direction hr {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #e5e7eb;
+}
+
+.venue-right button {
+  margin-top: 20px;
+  padding: 12px 35px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #2563eb;
+  color: #fff;
+}
+
 /* footer section */
 footer {
   background-color: #0d1b2a;
