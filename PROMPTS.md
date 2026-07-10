@@ -11,8 +11,6 @@ now i want to add another section between the secure your spot(pricing) section 
 give me some section ideas that i can include in my website 
 
 
----------------------------
-
 ***
 create an image of Venue and sponsor section, so i can code that 
 
