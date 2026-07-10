@@ -413,6 +413,68 @@ header p {
   cursor: pointer;
   background-color: #2563eb;
   color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.venue-right button:hover {
+  transform: scale(1.05);
+}
+
+/* sponser section */
+.sponsors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin: 150px auto;
+  margin-bottom: 100px;
+  width: 80%;
+  text-align: center;
+}
+
+.sponsors h1{
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #000102;
+}
+
+.sponsors p{
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #575757;
+}
+
+.sponsors-cards img {
+  width: 80%;
+}
+.sponsors-cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 50px 0;
+}
+.sponsor-card {
+  height: 80px;
+  width: 150px;
+  padding: 20px;
+  border: 2px solid #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);  
+  transition: all 0.3s ease-in-out;
+}
+
+.sponsor-card:hover {
+  transform: scale(1.1);
+}
+
+.sponsors-cards .fix-card img{
+  width: 50%;
 }
 
 /* footer section */
